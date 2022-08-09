@@ -4,7 +4,7 @@
   "scripts": {
     "build": "remix build",
     "dev": "remix dev",
-    "postbuild": "cpy 'public/img/remix.png' '.vercel/output/img/remix.png' && node post-build.js",
+    "postbuild": "cpy 'public/img/remix.png' '.vercel/output/static/img/remix.png' && cpy 'config.json' '.vercel/output/config.json' && node post-build.js",
     "prestart": "node post-build.js"
   },
   "dependencies": {
