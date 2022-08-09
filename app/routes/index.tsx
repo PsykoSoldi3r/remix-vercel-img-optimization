@@ -6,6 +6,11 @@ export default function Index() {
         src="/_vercel/image?url=/img/remix.png&w=400&q=75"
         alt="Remix logo"
       />
+
+      <img
+        src="/_vercel/image?url=/img/remix.png&w=400&q=75"
+        alt="Remix logo"
+      />
     </div>
   );
 }
