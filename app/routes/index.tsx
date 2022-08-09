@@ -1,0 +1,10 @@
+export default function Index() {
+  return (
+    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
+      <img
+        src="/_vercel/image?url=/img/remix.png&w=400&q=75"
+        alt="Remix logo"
+      />
+    </div>
+  );
+}
