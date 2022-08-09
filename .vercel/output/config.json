@@ -1,11 +1,5 @@
 {
   "version": 3,
-  "regions": ["cdg"],
-  "build": {
-    "env": {
-      "ENABLE_FILE_SYSTEM_API": "1"
-    }
-  },
   "images": {
     "domains": [],
     "sizes": [640, 750, 828, 1080, 1200],
