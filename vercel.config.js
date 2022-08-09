@@ -1,0 +1,9 @@
+module.exports = {
+  version: 3,
+  images: {
+    domains: [],
+    sizes: [640, 750, 828, 1080, 1200],
+    minimumCacheTTL: 60,
+    formats: ["image/webp", "image/avif"],
+  },
+};
